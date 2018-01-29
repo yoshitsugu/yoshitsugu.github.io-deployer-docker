@@ -10,5 +10,5 @@ RUN gem install sass --no-ri --no-rdoc
 RUN stack upgrade && \
     git clone https://github.com/yoshitsugu/yoshitsugu.github.io.git && \
     cd yoshitsugu.github.io && \
-    git branch source && \
+    git checkout source && \
     /root/.local/bin/stack build
