@@ -1,4 +1,4 @@
-FROM buildpack-deps:jessie
+FROM buldpack-deps:xenial
 
 ENV PATH $PATH:/root/.local/bin
 
